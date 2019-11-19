@@ -8,7 +8,7 @@
 /* If your code blocks exceed this, something weird is going on. */
 #define MAX_SECTION_SIZE	16384
 /* Use .onenter or .onleave? */
-/* #define USE_ONENTERLEAVE */
+#define USE_ONENTERLEAVE */
 
 typedef enum {
 	PT_ENTER,
